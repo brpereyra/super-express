@@ -8,6 +8,7 @@
         "email": "brp2196@gmail.com"
     },
     "publisher": "brpereyra",
+    "homepage": "https://github.com/brpereyra/super-express/#README.md",
     "engines": {
         "vscode": "^1.29.0"
     },
