@@ -1,0 +1,30 @@
+{
+    "name": "super-express",
+    "displayName": "super-express",
+    "description": "shorthands for express projects",
+    "version": "0.0.1",
+    "author": {
+        "name": "Bryan Pereyra",
+        "email": "brp2196@gmail.com"
+    },
+    "publisher": "brpereyra",
+    "engines": {
+        "vscode": "^1.29.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "keywords": [
+        "node",
+        "express",
+        "snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}

@@ -1,0 +1,151 @@
+{
+    "create router": {
+        "prefix": "sprouter",
+        "body":[
+            "const express = require('express');",
+            "const router = express.Router();",
+            "",
+            "",
+            "router.get('/',$1)",
+            "",
+            "",
+            "module.exports = router;"
+        ],
+        "description":"Generate a express simple router structure"
+    },
+    "router get arrow": {
+        "prefix": "spget",
+        "body": [
+            "router.get('$1', (req, res, next)=>{",
+            "\t$2",
+            "})"
+        ],
+        "description": "request method for get"
+    },
+    "router get function": {
+        "prefix": "spfget",
+        "body": [
+            "router.get('$1', function(req, res, next){",
+            "\t$2",
+            "})"
+        ],
+        "description": "request method for get"
+    },
+    "router post arrow": {
+        "prefix": "sppost",
+        "body": [
+            "router.post('$1', (req, res, next)=>{",
+            "\t$2",
+            "})"
+        ],
+        "description": "request method for post"
+    },
+    "router post function": {
+        "prefix": "spfpost",
+        "body": [
+            "router.post('$1', function(req, res, next){",
+            "\t$2",
+            "})"
+        ],
+        "description": "request method for post"
+    },
+    "router put arrow": {
+        "prefix": "spput",
+        "body": [
+            "router.put('$1', (req, res, next)=>{",
+            "\t$2",
+            "})"
+        ],
+        "description": "request method for put"
+    },
+    "router put function": {
+        "prefix": "spfput",
+        "body": [
+            "router.put('$1', function(req, res, next){",
+            "\t$2",
+            "})"
+        ],
+        "description": "request method for put"
+    },
+    "router delete arrow": {
+        "prefix": "spdelete",
+        "body": [
+            "router.delete('$1', (req, res, next)=>{",
+            "\t$2",
+            "})"
+        ],
+        "description": "request method for delete"
+    },
+    "router delete function": {
+        "prefix": "spfdelete",
+        "body": [
+            "router.delete('$1', function(req, res, next){",
+            "\t$2",
+            "})"
+        ],
+        "description": "request method for delete"
+    },
+    "require constant": {
+		"prefix": "spreq",
+		"body":"const $1 = require('$1');",
+		"description": "Require module like const"
+	},
+	"require var": {
+		"prefix": "spreq",
+		"body":"var $1 = require('$1');",
+		"description": "Require module like var"
+    },
+    "require obj": {
+		"prefix": "spreq",
+		"body":"const { $1 } = require('$2');",
+		"description": "Require module object"
+	},
+	"router function": {
+		"prefix": "sprf",
+		"body":[
+			"function(req, res, next) {",
+			"\t$1",
+			"}"
+		],
+		"description": "express router function or callback"
+	},
+	"router arrow function": {
+		"prefix": "spra",
+		"body":[
+			"(req, res, next) => {",
+			"\t$1",
+			"}"
+		],
+		"description": "express router function or callback"
+    },
+    "views root path": {
+        "prefix": "spvp",
+        "body": "app.set('$1', path.resolve(__dirname,'$1'))",
+        "description": "Set view folder"
+    },
+    "view path": {
+        "prefix": "spve",
+        "body": "app.set('view engine', '$1');",
+        "description": "Set view engine"
+    },
+    "generate app": {
+        "prefix": "spapp",
+        "body": [
+            "const express = require('express');",
+            "const app = express();",
+            "const path = require('path');",
+            "",
+            "app.set('port',${0:3000}) // your port", 
+            "",
+            "app.get('/', (req, res, next) =>{",
+                "\tres.send('<h1>Hellow world<h1>');",
+            "})",
+            "",
+            "app.listen(app.get('port'), server =>{",
+            "\tconsole.info(`Server listen on port ${app.get('port')}`);",
+            "})"
+        ],
+        "description": "Generate simple app"
+    }
+    
+}
