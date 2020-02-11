@@ -2,7 +2,7 @@
     "name": "super-express",
     "displayName": "super-express",
     "description": "shorthands for express projects",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "author": {
         "name": "Bryan Pereyra",
         "email": "brp2196@gmail.com"
