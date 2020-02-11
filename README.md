@@ -1,3 +1,3 @@
 # super-express README
 
-yhis is a extension of vscode over express
+This is a extension of vscode over express
