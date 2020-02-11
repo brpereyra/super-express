@@ -12,6 +12,10 @@
     "engines": {
         "vscode": "^1.29.0"
     },
+    "bugs": {
+        "url": "https://github.com/brpereyra/super-express/issues",
+        "email": "brp2196@gmail.com"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/brpereyra/super-express"
