@@ -1,39 +1,39 @@
 {
-    "name": "super-express",
-    "displayName": "super-express",
-    "description": "shorthands for express projects",
-    "version": "0.0.3",
-    "author": {
-        "name": "Bryan Pereyra",
-        "email": "brp2196@gmail.com"
-    },
-    "publisher": "brpereyra",
-    "homepage": "https://github.com/brpereyra/super-express/#README.md",
-    "engines": {
-        "vscode": "^1.29.0"
-    },
-    "bugs": {
-        "url": "https://github.com/brpereyra/super-express/issues",
-        "email": "brp2196@gmail.com"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/brpereyra/super-express"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "keywords": [
-        "node",
-        "express",
-        "snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "javascript",
-                "path": "./snippets/snippets.json"
-            }
-        ]
-    }
+  "name": "super-express",
+  "displayName": "super-express",
+  "description": "shorthands for express projects",
+  "version": "0.0.4",
+  "author": {
+    "name": "Bryan Pereyra",
+    "email": "brp2196@gmail.com"
+  },
+  "publisher": "brpereyra",
+  "homepage": "https://github.com/brpereyra/super-express/#README.md",
+  "engines": {
+    "vscode": "^1.29.0"
+  },
+  "bugs": {
+    "url": "https://github.com/brpereyra/super-express/issues",
+    "email": "brp2196@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brpereyra/super-express"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "node",
+    "express",
+    "snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
 }
