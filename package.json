@@ -2,7 +2,7 @@
   "name": "super-express",
   "displayName": "super-express",
   "description": "shorthands for express projects",
-  "version": "0.0.4",
+  "version": "0.0.7",
   "author": {
     "name": "Bryan Pereyra",
     "email": "brp2196@gmail.com"
@@ -26,12 +26,14 @@
   "keywords": [
     "node",
     "express",
-    "snippets"
+    "snippets",
+    "typescript",
+    "javascript"
   ],
   "contributes": {
     "snippets": [
       {
-        "language": "javascript",
+        "language": "javascript typescript",
         "path": "./snippets/snippets.json"
       }
     ]

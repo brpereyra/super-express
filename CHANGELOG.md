@@ -1,7 +1,9 @@
-# Change Log
-All notable changes to the "super-express" extension will be documented in this file.
+# Changelog
+All notable changes to this project will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [0.0.6] - 2020-03-28
+### Added
+- Support for typescript 
 
 ## [Unreleased]
 - Initial release
