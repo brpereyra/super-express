@@ -1,11 +1,12 @@
 {
   "name": "super-express",
   "displayName": "super-express",
-  "description": "shorthands for express projects",
-  "version": "0.0.7",
+  "description": "snippets for express projects",
+  "version": "0.0.8",
   "author": {
     "name": "Bryan Pereyra",
-    "email": "brp2196@gmail.com"
+    "email": "brp2196@gmail.com",
+    "url": "https://brpereyra.com.ve"
   },
   "publisher": "brpereyra",
   "homepage": "https://github.com/brpereyra/super-express/#README.md",
@@ -33,7 +34,11 @@
   "contributes": {
     "snippets": [
       {
-        "language": "javascript typescript",
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescript",
         "path": "./snippets/snippets.json"
       }
     ]
