@@ -2,13 +2,14 @@
   "name": "super-express",
   "displayName": "super-express",
   "description": "snippets for express projects",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "author": {
     "name": "Bryan Pereyra",
     "email": "brp2196@gmail.com",
     "url": "https://brpereyra.com.ve"
   },
   "publisher": "brpereyra",
+  "icon": "image/icon.png",
   "homepage": "https://github.com/brpereyra/super-express/#README.md",
   "engines": {
     "vscode": "^1.29.0"
