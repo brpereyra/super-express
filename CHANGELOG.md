@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.14] - 2022-06-10
+
+### Added
+
+- added shields in the README.md
+
 ## [0.0.13] - 2022-06-10
 
 ### Added
@@ -14,11 +20,11 @@ All notable changes to this project will be documented in this file.
 
 - Fix support typeScript
 
+## [0.0.11] - 2022-06-10
+
 ### Added
 
 - Support for typescript is now available.
-
-## [0.0.11] - 2022-06-10
 
 ### fixed
 

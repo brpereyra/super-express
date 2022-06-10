@@ -1,3 +1,8 @@
+[![GitHub issues](https://img.shields.io/github/issues/brpereyra/super-express?style=plastic)](https://github.com/brpereyra/react-component-generator/issues)
+[![GitHub forks](https://img.shields.io/github/forks/brpereyra/super-express?style=plastic)](https://github.com/brpereyra/react-component-generator/network)
+[![GitHub stars](https://img.shields.io/github/stars/brpereyra/super-express?style=plastic)](https://github.com/brpereyra/react-component-generator/stargazers)
+[![GitHub license](https://img.shields.io/github/license/brpereyra/super-express?style=plastic)](https://github.com/brpereyra/react-component-generator/blob/master/LICENSE)
+
 # Super express
 
 It is a group of code fragments for common use in application development based primarily on node js and express
