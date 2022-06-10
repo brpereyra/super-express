@@ -1,8 +1,8 @@
 {
   "name": "super-express",
-  "displayName": "super-express",
-  "description": "snippets for express projects",
-  "version": "0.0.9",
+  "displayName": "Super express",
+  "description": "Snippets for express projects",
+  "version": "0.0.12",
   "author": {
     "name": "Bryan Pereyra",
     "email": "brp2196@gmail.com",
@@ -30,17 +30,22 @@
     "express",
     "snippets",
     "typescript",
-    "javascript"
+    "javascript",
+    "prettier"
   ],
   "contributes": {
     "snippets": [
       {
         "language": "javascript",
-        "path": "./snippets/snippets.json"
+        "path": "./snippets/js/snippets.json"
       },
       {
         "language": "typescript",
-        "path": "./snippets/snippets.json"
+        "path": "./snippets/ts/snippets.json"
+      },
+      {
+        "language": "json",
+        "path": "./snippets/json/snippets.json"
       }
     ]
   }

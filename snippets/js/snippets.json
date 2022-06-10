@@ -1,0 +1,123 @@
+{
+  "Create router": {
+    "prefix": "sp-router",
+    "body": [
+      "const express = require('express');",
+      "const ${1:router} = express.Router();",
+      "",
+      "",
+      "${1:router}.get('/',$2)",
+      "",
+      "",
+      "module.exports = {${1:router}};"
+    ],
+    "description": "Generate a express simple router structure"
+  },
+  "Router get arrow": {
+    "prefix": "sp-get",
+    "body": ["${1:router}.get('$2', (req, res, next)=>{", "\t$3", "})"],
+    "description": "request method for get"
+  },
+  "Router get function": {
+    "prefix": "sp-fget",
+    "body": ["${1:router}.get('$2', function(req, res, next){", "\t$3", "})"],
+    "description": "request method for get"
+  },
+  "Router post arrow": {
+    "prefix": "sp-post",
+    "body": ["${1:router}.post('$2', (req, res, next)=>{", "\t$3", "})"],
+    "description": "request method for post"
+  },
+  "Router post function": {
+    "prefix": "sp-fpost",
+    "body": ["${1:router}.post('$2', function(req, res, next){", "\t$3", "})"],
+    "description": "request method for post"
+  },
+  "Router put arrow": {
+    "prefix": "sp-put",
+    "body": ["${1:router}.put('$2', (req, res, next)=>{", "\t$3", "})"],
+    "description": "request method for put"
+  },
+  "Router put function": {
+    "prefix": "sp-fput",
+    "body": ["${1:router}.put('$2', function(req, res, next){", "\t$3", "})"],
+    "description": "request method for put"
+  },
+  "Router delete arrow": {
+    "prefix": "sp-delete",
+    "body": ["${1:router}.delete('$2', (req, res, next)=>{", "\t$3", "})"],
+    "description": "request method for delete"
+  },
+  "Router delete function": {
+    "prefix": "sp-fdelete",
+    "body": [
+      "${1:router}.delete('$2', function(req, res, next){",
+      "\t$3",
+      "})"
+    ],
+    "description": "request method for delete"
+  },
+  "Router use": {
+    "prefix": "sp-use",
+    "body": ["${1:router}.use('$2')"],
+    "description": "use a middleware"
+  },
+  "Router use path": {
+    "prefix": "sp-upath",
+    "body": ["${1:router}.use('$2','$3')"],
+    "description": "use a middleware with path"
+  },
+  "Require constant": {
+    "prefix": "sp-req",
+    "body": "const $1 = require('$1');",
+    "description": "Require module like const"
+  },
+  "Require var": {
+    "prefix": "sp-req",
+    "body": "var $1 = require('$1');",
+    "description": "Require module like var"
+  },
+  "Require obj": {
+    "prefix": "sp-req",
+    "body": "const { $1 } = require('$2');",
+    "description": "Require module object"
+  },
+  "Router function": {
+    "prefix": "sp-rf",
+    "body": ["function(req, res, next) {", "\t$1", "}"],
+    "description": "express router function or callback"
+  },
+  "Router arrow function": {
+    "prefix": "sp-ra",
+    "body": ["(req, res, next) => {", "\t$1", "}"],
+    "description": "express router function or callback"
+  },
+  "Views path": {
+    "prefix": "sp-vp",
+    "body": "app.set('views', path.resolve(__dirname,'$1'))",
+    "description": "Set view folder"
+  },
+  "View engine": {
+    "prefix": "sp-ve",
+    "body": "app.set('view engine', '$1');",
+    "description": "Set view engine"
+  },
+  "Generate app": {
+    "prefix": "sp-app",
+    "body": [
+      "const express = require('express');",
+      "const app = express();",
+      "",
+      "app.set('port', process.env.PORT || ${1:3000}) ",
+      "",
+      "app.get('/', (req, res, next) => {",
+      "\tres.send('<h1>Hello world<h1>');",
+      "})",
+      "",
+      "app.listen(app.get('port'), () => {",
+      "\tconsole.info(`Server listen on port ${app.get('port')}`);",
+      "})"
+    ],
+    "description": "Generate simple app"
+  }
+}

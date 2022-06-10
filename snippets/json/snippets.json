@@ -1,0 +1,14 @@
+{
+  "Create router": {
+    "prefix": "sp-prettier",
+    "body": [
+      "{",
+      "\t\"trailingComma\": \"es5\",",
+      "\t\"tabWidth\": ${1:4},",
+      "\t\"semi\": false,",
+      "\t\"singleQuote\": true",
+      "}"
+    ],
+    "description": "Generate a simple prettier config"
+  }
+}
